@@ -1,5 +1,5 @@
 let num1 = 6;
-let num2 = 9;
+let num2 = 3;
 
 let product = 0; 
 let n = 1;
