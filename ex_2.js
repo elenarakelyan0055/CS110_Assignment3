@@ -1,6 +1,6 @@
-let grade = 100
+let grade = 100;
 
-let letter = ""
+let letter = "";
 
 if ( grade < 60) {
     letter = "F"
