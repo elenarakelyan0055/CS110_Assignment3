@@ -1,4 +1,4 @@
-let totalLines = 3;
+let totalLines = 5;
 
 let curLine = 1;
 
