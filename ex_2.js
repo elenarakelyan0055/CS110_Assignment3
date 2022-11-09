@@ -1,4 +1,4 @@
-let grade = 0
+let grade = 70
 
 let letter = ""
 
@@ -39,3 +39,22 @@ else if ( grade >= 90 && grade <= 92){
 
 console.log(letter);
 
+switch (letter) {
+    case "F":
+    case "D-":
+    case "D":
+    case "D+":
+        console.log("Your garde is " + grade + " which corresponds to " + letter + ".You failed!");
+         break;
+    case "C-":
+    case "C":
+    case "C+":
+    case "B-":
+    case "B":
+    case "B+":
+    case "A-":
+    case "A":
+    case "A+":
+        console.log("Your garde is " + grade + " which corresponds to " + letter + ".You passed!");
+        break;
+}
