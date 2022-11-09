@@ -3,38 +3,38 @@ let grade = 100;
 let letter = "";
 
 if ( grade < 60) {
-    letter = "F"
+    letter = "F";
 }
 else if ( grade >= 60  && grade <= 62){
-    letter = "D-"
+    letter = "D-";
 }
 else if ( grade >= 63  && grade <= 66){
-    letter = "D"
+    letter = "D";
 }
 else if ( grade >= 67 && grade <= 69){
-    letter = "D+"
+    letter = "D+";
 }
 else if ( grade >= 70 && grade <= 72){
-    letter = "C-"
+    letter = "C-";
 }
 else if ( grade >= 73 && grade <= 76){
-    letter = "C"
+    letter = "C";
 }
 else if ( grade >= 77 && grade <= 79){
-    letter = "C+"
+    letter = "C+";
 }else if ( grade >= 80 && grade <= 82){
-    letter = "B-"
+    letter = "B-";
 }else if ( grade >= 83 && grade <= 86){
-    letter = "B"
+    letter = "B";
 }else if ( grade >= 87 && grade <= 89){
-    letter = "B+"
+    letter = "B+";
 }
 else if ( grade >= 90 && grade <= 92){
-    letter = "A-"
+    letter = "A-";
 }else if ( grade >= 93 && grade <= 96){
-    letter = "A"
+    letter = "A";
 }else if ( grade >= 97 && grade <= 100){
-    letter = "A+"
+    letter = "A+";
 }
 
 //console.log(letter);
