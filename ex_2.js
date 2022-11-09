@@ -1,4 +1,4 @@
-let grade = 70
+let grade = 100
 
 let letter = ""
 
@@ -37,7 +37,7 @@ else if ( grade >= 90 && grade <= 92){
     letter = "A+"
 }
 
-console.log(letter);
+//console.log(letter);
 
 switch (letter) {
     case "F":
